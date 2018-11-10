@@ -1,0 +1,9 @@
+.navbar {
+    font-size: 20px;
+    position: fixed;
+    width: 100%;
+}
+
+.navbar img {
+    transform: rotate(0deg); 
+}

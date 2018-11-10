@@ -1,12 +1,14 @@
 import React from "react";
+import "./Navbar.css";
 
 
 const Navbar = () => (
   
   <nav className="navbar navbar-expand-md navbar-light bg-white">
     <a className="navbar-brand" href="/home">
-      metroKnome
+      metroKnome <img src= "../images/mknomeblk.png" alt="knome" height=" 40px"/>
     </a>
+
     <button
       className="navbar-toggler"
       data-toggle="collapse"
