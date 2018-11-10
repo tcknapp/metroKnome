@@ -2,7 +2,8 @@ import React, { Component } from "react";
 import "./Form.css";
 import Jumbotron from "../Jumbotron";
 import { Form, FormGroup, Col, ControlLabel, FormControl, Button } from "react-bootstrap";
-
+import { withRouter } from "react-router-dom";
+import API from "../../utils/API";
 
 class Signup extends Component {
   // Setting the component's initial state
@@ -39,7 +40,14 @@ class Signup extends Component {
         `Choose a more secure password ${this.state.firstName}`
       );
     } else {
-      alert(`Thanks for joining ${this.state.userName}`);
+      API.saveUser({
+        firstName: this.state.firstName,
+        lastName: this.state.lastName,
+        userName: this.state.userName,
+        userEmail: this.state.userEmail,
+        password: this.state.password,
+      })
+      .then(this.props.history.push("/home"));
     }
 
     this.setState({
@@ -61,7 +69,7 @@ class Signup extends Component {
         </p>
         <FormGroup className="form">
         <Col componentClass={ControlLabel} sm={4}>
-         <div style={{float:"left"}}>
+         <div style={{float:"left", marginRight:"14px"}}>
           <input
             value={this.state.firstName}
             name="firstName"
@@ -82,7 +90,7 @@ class Signup extends Component {
           
           <input
             value={this.state.userEmail}
-            name="userEmail"
+            name={"userEmail"}
             onChange={this.handleInputChange}
             type="text"
             placeholder="Email"
@@ -110,4 +118,4 @@ class Signup extends Component {
   }
 }
 
-export default Signup;
+export default withRouter (Signup);

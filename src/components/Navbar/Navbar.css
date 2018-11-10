@@ -5,5 +5,23 @@
 }
 
 .navbar img {
-    transform: rotate(0deg); 
+    
+    position: relative;
+    -webkit-animation-name: spin; /* Safari 4.0 - 8.0 */
+    
+    -webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+    animation-name: spin;
+    animation-duration: 2s;
+    animation-iteration-count: infinite; 
+}
+
+
+/* @-webkit-keyframes spin { 100% { -webkit-transform: rotate(75deg, 75deg); } } */
+@keyframes spin { 
+    0% { -webkit-transform: rotate(0deg); transform:rotate(0deg); } 
+    50% { -webkit-transform: rotate(40deg); transform:rotate(40deg); } 
+    100% { -webkit-transform: rotate(-40deg); transform:rotate(-40deg); } 
+    /* 50% { -webkit-transform: rotate(40deg); transform:rotate(40deg); } 
+    0% { -webkit-transform: rotate(0deg); transform:rotate(0deg); } } */
 }

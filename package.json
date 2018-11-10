@@ -3,7 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "animate.css": "^3.7.0",
     "chart.js": "^2.7.3",
+    "mongoose": "^5.3.11",
     "react": "^16.6.1",
     "react-bootstrap": "^0.32.4",
     "react-chartjs-2": "^2.7.4",

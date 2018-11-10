@@ -1,9 +1,10 @@
 import React from "react";
 import "./Footer.css";
+import Timer from "../Timer";
 
 const Footer = () => (
   <footer className="footer">
-    <span>TK2018</span>
+    <Timer />
   </footer>
 );
 
