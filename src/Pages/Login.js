@@ -1,7 +1,6 @@
 import React from "react";
-import ReactDOM from "react-dom";
 import Jumbotron from "../components/Jumbotron";
-import {Form, FormGroup, Col, ControlLabel, FormControl, Checkbox, Button} from "react-bootstrap";
+import {Form, FormGroup, Col, ControlLabel, FormControl, Button} from "react-bootstrap";
 
 
 
@@ -12,7 +11,7 @@ const Login = () => (
         <Jumbotron />
 <center>
         <Form horizontal>
-  <FormGroup controlId="formHorizontalEmail">
+  <FormGroup controlId="formHorizontalUsername">
     <Col componentClass={ControlLabel} sm={8}>
       username
     </Col>
@@ -33,7 +32,7 @@ const Login = () => (
   <FormGroup>
     <Col smOffset={2} sm={6}>
       <Button type="submit" className="btn btn-outline-dark"><a href="/Home">Log in</a></Button>
-      <Button type="submit" className="btn btn-outline-danger"><a href="/">Sign up</a></Button>
+      <Button type="submit" className="btn btn-outline-danger"><a href="/Signup">Sign up</a></Button>
     </Col>
   </FormGroup>
 </Form>

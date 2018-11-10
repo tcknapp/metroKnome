@@ -1,5 +1,5 @@
 const express = require("express");
-
+const path = require("fs");
 const mongoose = require("mongoose");
 const routes = require("./routes");
 const app = express();
@@ -16,7 +16,7 @@ if (process.env.NODE_ENV === "production") {
 app.use(routes);
 
 // Connect to the Mongo DB
-mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/reactreadinglist");
+mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost:27017/metroknome", { useNewUrlParser: true });
 
 // React request
 app.get("*", function(req, res) {
