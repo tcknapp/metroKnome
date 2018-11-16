@@ -9,6 +9,7 @@ import Form from "./components/Form";
 import Tools from "./Pages/Tools";
 import Data from "./Pages/Data";
 import Resources from "./Pages/Resources";
+import Settings from "./Pages/Settings";
 import Navbar from "./components/Navbar";
 import Jumbotron from "./components/Jumbotron";
 import Card from "./components/Card";
@@ -31,6 +32,7 @@ const App = () => (
         <Route exact path="/Tools" component={Tools} />
         <Route exact path="/Data" component={Data} />
         <Route exact path="/Resources" component={Resources} />
+        <Route exact path="/Settings" component={Settings} />
       </Wrapper>
     </div>
   </Router>

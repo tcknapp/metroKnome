@@ -12,7 +12,7 @@ const About = () => (
         <Jumbotron />
 
          <div className="col" div style={{display: 'flex',  justifyContent:'center', alignItems:'center', height: '50%'}}>
-        <div className="card"div style={{display: 'flex',  justifyContent:'center', alignItems:'center', width: '100vh', padding: '10px'}}>
+        <div className="card"div style={{display: 'flex',  justifyContent:'center', alignItems:'center', width: '100vh', padding: '10px', border: '2px solid black'}}>
         
        
        
