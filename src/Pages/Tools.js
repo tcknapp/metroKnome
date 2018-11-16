@@ -1,9 +1,8 @@
 import React from "react";
 import Metronome from "../components/Metronome";
 import Headroom from "../components/Headroom";
-import Card from "../components/Card";
-import Jumbotron from "../components/Jumbotron";
 import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 
 
 const Tools = () => (
@@ -11,6 +10,7 @@ const Tools = () => (
     <Headroom>
     <Navbar />
     </Headroom>
+    <br/> <br/> <br />
     <div className="card">
     <h3><center>metronome</center></h3>
      <Metronome />
@@ -37,6 +37,8 @@ const Tools = () => (
      </center>
      </div>
      </div>
+
+     < Footer />
 
 
     </div>

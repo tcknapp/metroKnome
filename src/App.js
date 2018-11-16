@@ -32,7 +32,6 @@ const App = () => (
         <Route exact path="/Data" component={Data} />
         <Route exact path="/Resources" component={Resources} />
       </Wrapper>
-      <Footer />
     </div>
   </Router>
 

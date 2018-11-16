@@ -2,6 +2,7 @@ import React from "react";
 import Searchbar from "../components/Searchbar";
 import Navbar from "../components/Navbar";
 import Headroom from "../components/Headroom";
+import Footer from "../components/Footer";
 
 
 const Resources = () => (
@@ -9,8 +10,9 @@ const Resources = () => (
        <Headroom>
        <Navbar />
         </Headroom>
+        <br /> <br /> <br />
      <Searchbar />
-   <div> <br /> <br />
+   <div> 
     <div className="card">
     <div className="carousel">
     <h3>Youtube</h3>
@@ -25,6 +27,7 @@ const Resources = () => (
     </div>
 
     </div>
+    <Footer />
 
     </div>
 

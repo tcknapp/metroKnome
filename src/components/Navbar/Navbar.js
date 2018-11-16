@@ -1,5 +1,6 @@
 import React from "react";
 import "./Navbar.css";
+import Timer from "../Timer";
 
 
 const Navbar = () => (
@@ -18,7 +19,6 @@ const Navbar = () => (
       aria-label="Toggle navigation"
     >
       <span className="navbar-toggler-icon" />
-
     </button>
 
     <div className="collapse navbar-collapse" id="navbarSupportedContent">

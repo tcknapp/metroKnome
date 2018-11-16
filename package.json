@@ -5,14 +5,20 @@
   "dependencies": {
     "animate.css": "^3.7.0",
     "chart.js": "^2.7.3",
+    "chartjs-plugin-annotation": "^0.5.7",
     "mongoose": "^5.3.11",
     "react": "^16.6.1",
+    "react-addons-css-transition-group": "^15.6.2",
     "react-bootstrap": "^0.32.4",
+    "react-chartjs": "^1.2.0",
     "react-chartjs-2": "^2.7.4",
+    "react-chartkick": "^0.3.0",
     "react-dom": "^16.6.1",
     "react-headroom": "^2.2.4",
     "react-router-dom": "^4.3.1",
     "react-scripts": "2.0.5",
+    "react-sticky": "^6.0.3",
+    "react-sticky-state": "^2.1.9",
     "youtube-api-search": "0.0.5"
   },
   "scripts": {

@@ -55,7 +55,7 @@ class Timer extends React.Component {
         {(this.state.secondsElapsed === 0 ||
           this.incrementer === this.state.lastClearedIncrementer
           ? <Button className="start-btn" onClick={this.handleStartClick.bind(this)}>Start Session</Button>
-          : <Button className="stop-btn" onClick={this.handleStopClick.bind(this)}>stop</Button>
+          : <Button className="stop-btn" onClick={this.handleStopClick.bind(this)}>Pause Session</Button>
         )}
         
         {(this.state.secondsElapsed !== 0 &&

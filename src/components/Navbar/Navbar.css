@@ -1,15 +1,17 @@
 .navbar {
-    font-size: 20px;
+    font-size: 16px;
     position: fixed;
     width: 100%;
+    opacity: .8;
 }
 
 .navbar img {
     
     position: relative;
     -webkit-animation-name: spin; /* Safari 4.0 - 8.0 */
-    
-    -webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-timing-function: linear; /* Chrome, Safari, Opera */
+    animation-timing-function: linear;
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
     -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
     animation-name: spin;
     animation-duration: 2s;

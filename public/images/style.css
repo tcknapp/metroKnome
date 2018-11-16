@@ -1,0 +1,7 @@
+.example-appear {
+    opacity: 0.04;
+ }
+ .example-enter.example-enter-active {
+    opacity: 2;
+    transition: opacity 50s ease-in;
+ }
