@@ -20,6 +20,7 @@ const Tools = () => (
      <center>
      <h3>guitar tuner</h3>
      <p>(Coming soon...)</p>
+     <img src="../images/guitarmk.png"></img>
      </center>
      </div>
     

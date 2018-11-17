@@ -7,7 +7,7 @@ const Navbar = () => (
   
   <nav className="navbar navbar-expand-md navbar-light bg-light">
     <a className="navbar-brand" href="/home">
-      metroKnome <img src= "../images/mknomeblk.png" alt="knome" height=" 40px"/>
+      metroKnome <img src= "../images/mknomeblk.png" alt="knome" height=" 30px"/>
     </a>
 
     <button
@@ -44,11 +44,7 @@ const Navbar = () => (
           Tools
           </a>
         </li>
-        <li className="nav-item">
-          <a className="nav-link" href="/resources">
-          Resources
-          </a>
-        </li>
+       
 
         
         {/* <li className="nav-item dropdown">

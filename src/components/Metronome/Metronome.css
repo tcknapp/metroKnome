@@ -3,11 +3,22 @@
   max-width: 375px;
   margin: 0 auto;
   padding: 30px;
+
 }
 
 .bpm-slider input {
   width: 100%;
   margin: 10px;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 23px;
+  height: 24px;
+  border: 0;
+  background: url('./mknomeblk.png');
+  cursor: pointer;
 }
 
 .metronome button {

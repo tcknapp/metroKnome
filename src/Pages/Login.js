@@ -31,6 +31,7 @@ const Login = () => (
 
   <FormGroup>
     <Col smOffset={2} sm={6}>
+    {/* handleformsubmit */}
       <Button type="submit" className="btn btn-outline-dark" style={{marginRight:"4px"}}><a href="/Home" style={{textDecoration:"none"}}>Log in</a></Button>
       <Button type="submit" className="btn btn-outline-danger"><a href="/Signup"style={{textDecoration:"none"}}>Sign up</a></Button>
     </Col>
