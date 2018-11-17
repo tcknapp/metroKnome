@@ -1,13 +1,14 @@
-
   .stopwatch { 
       text-align: center; 
     }
+
   .stopwatch-timer {
     font-size: 40px;
     font-weight: 100;
-    line-height: 20px;
+    line-height: 30px;
     
-    margin-right: 10px;
+    margin-right: 0px;
+    margin-top: 2px;
 
     background-color: white;
   }

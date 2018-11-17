@@ -21,7 +21,7 @@ const Settings = () => (
 
                 <div className="form-group col-4">
                     <p><b>Who is using mK?</b></p>
-                    <select class="custom-select">
+                    <select class="custom-select" id="whoUses">
                         <option selected></option>
                         <option value="1">Self</option>
                         <option value="2">Group/Band</option>
@@ -31,7 +31,7 @@ const Settings = () => (
                 </div>
                 <div className="form-group col-4">
                     <p><b>Primary use:</b></p>
-                    <select class="custom-select">
+                    <select class="custom-select" id="primaryUse">
                         <option selected></option>
                         <option value="1">Practice</option>
                         <option value="2">Production</option>
@@ -88,6 +88,7 @@ const Settings = () => (
                     </div>
                 </div>
             </div>
+            <br /> <br /> <br /> <br /> <br />
             < Footer />
         </div>
 

@@ -1,17 +1,14 @@
 .footer {
   min-height: 30px;
   background: white;
-  position: sticky;
   text-align: center;
   margin-top: 10px;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  position: fixed;
+  opacity: .9;
+  
 }
 
-.footer span {
-  position: sticky;
-  bottom: 0px;
-  left: 0;
-  right: 0;
-  padding: 3px;
-  background: white;
-}
 

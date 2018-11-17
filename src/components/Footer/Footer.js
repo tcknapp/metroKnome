@@ -3,10 +3,11 @@ import "./Footer.css";
 import Timer from "../Timer";
 
 
+
 const Footer = () => (
-  <footer className="footer">
+  <div className="footer">
     <Timer />
-  </footer>
+  </div>
 );
 
 export default Footer;
