@@ -57,13 +57,13 @@ render () {
         <Line color="black" />
 
         <h3>Week:</h3>
-        <p className="wow fadeIn delay-1s" style={{animationDelay: '2s', color: 'green'}}>3hrs 18min 28sec</p>
+        <p className="wow fadeIn delay-1s" style={{animationDelay: '2s', color: 'green'}}>3hrs 18min</p>
         {/* insert week use */}
 
         <Line color="black" />
 
         <h3>Month:</h3>
-        <p className="wow fadeIn delay-1s" style={{animationDelay: '2s', color: 'green'}}>8hrs 10min 10sec</p>
+        <p className="wow fadeIn delay-1s" style={{animationDelay: '2s', color: 'green'}}>8hrs 10min</p>
         {/* insert month use */}
 
         <Line color="black" />
